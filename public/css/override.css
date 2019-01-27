@@ -1,0 +1,461 @@
+/********************/
+/**** Activities ****
+/********************/
+
+#tbl-modifications_length {
+	display: none;
+}
+
+.extra-modification {
+	display: none;
+}
+
+/*****************/
+/**** Buttons ****
+/*****************/
+
+.btn-labeled {
+	padding: 0 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-warning:hover {
+    color: #212529;
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+body:not(.menu-on-top) .nav-demo-btn {
+    display: block;
+    padding: 6px 5px;
+    margin: 5px 10px;
+    width: auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    font-size: 12px;
+    white-space: normal;
+}
+
+.minified .button-label {
+	display: none;
+}
+
+/***************/
+/**** Cards ****
+/***************/
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.card-body {
+    position: relative;
+    padding: 0;
+    height: 220px;
+    overflow: hidden;
+    flex: 1 1 auto;
+    color: #FFF;
+}
+
+.card-body h2 {
+	font-weight: bold;
+}
+
+.card-body .label {
+	font-size: 14px;
+}
+
+#active .card-cover {
+	background: rgba(71, 145, 88, 0.8);
+}
+
+#archive .card-cover {
+	background: rgba(80, 53, 58, 0.8);
+}
+
+.card-cover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    cursor: pointer;
+    padding: 40px 20px; 
+    border-radius: 20px;   
+}
+
+.card-body .actions {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.card-body:hover .actions {
+    display: block;
+}
+
+.card-body .actions > div > div {
+    padding: 0;
+}
+
+.card-body .actions > div > div > a {
+    padding: 15px;
+    border: 1px solid #FFF;
+}
+
+.card-body .actions > div > div > a:hover {
+    text-decoration: none;
+}
+
+.card-body .actions a {
+    color: #FFF;
+    display: block;
+}
+
+.card-body .blank {
+    border: 2px dashed #CACACA;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.card-body .blank i {
+	transition: all .2s ease-in-out;
+}
+
+.card-body .blank:hover i {
+	transform: scale(1.5);
+}
+
+.card-body .subtitle {
+	color: #999;
+	font-size: 14px;
+}
+
+/***************/
+/**** Forms ****
+/***************/
+#frm-add-task {
+	margin-bottom: 5px;
+}
+
+.task {
+	border: 1px dotted #999;
+	padding: 5px;
+	margin: 5px;
+}
+
+.task:hover {
+    background-color: #df8505;
+    border: 1px solid #c67605;
+}
+
+.task:hover .checkbox {
+	color: #fff;
+}
+
+.divider {
+	text-align: center;
+    height: 10px;
+    border-bottom: 1px solid #999;
+    background: #FFF;
+}
+
+.divider strong {
+	z-index: 10;
+    position: absolute;
+    background: #FFF;
+    padding: 0 20px;
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+.invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: 0.25rem;
+    color: #f86c6b;
+}
+
+.smart-style-2 .smart-form .checkbox input:checked+i, .smart-style-2 .smart-form .radio input:checked+i, .smart-style-2 .smart-form .toggle input:checked+i {
+	border-color: #3276b1;
+}
+
+.smart-form .message {
+	display: block;
+}
+
+.input .icon-append {
+	z-index: 10;
+}
+
+.input-group {
+	width: 100%;
+}
+
+/****************/
+/**** Images ****
+/****************/
+
+img.offline {
+	border-radius: 	50%;
+	border: 3px solid #FFF;
+}
+
+.display-image {
+	margin-top: 0px;
+}
+
+/****************/
+/**** Labels ****
+/****************/
+
+.label-primary {
+    color: #fff;
+    background-color: #007bff;
+}
+
+.label-success {
+    color: #fff;
+    background-color: #28a745;
+}
+
+.label-warning {
+    color: #fff;
+    background-color: #ffc107;
+}
+
+.label-danger {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+/****************/
+/**** Layout ****
+/****************/
+
+aside,
+#ribbon,
+.MessageBoxContainer {
+	background: #2f353a;
+}
+
+/****************/
+/**** Modals ****
+/****************/
+
+.modal-primary .modal-header {
+    color: #fff;
+    background-color: #20a8d8;
+}
+
+.modal-success .modal-header {
+    color: #fff;
+    background-color: #4dbd74;
+}
+
+.modal-warning .modal-header {
+    color: #fff;
+    background-color: #ffc107;
+}
+
+.modal-danger .modal-header {
+    color: #fff;
+    background-color: #f86c6b;
+}
+
+.modal-info .modal-header {
+    color: #fff;
+    background-color: #63c2de;
+}
+
+/****************/
+/**** Popups ****
+/****************/
+
+.SmallBox {
+	padding-top: 7px;
+}
+
+/****************/
+/**** Prints ****
+/****************/
+
+.print-todo-paper {
+	display: none;
+}
+
+/**********************/
+/**** Registration ****
+/*********************/
+
+#pnl-register-message {
+	padding: 10px;
+	display: none;
+}
+
+#pnl-register-message .message {
+	margin: 10px;
+}
+
+/****************/
+/**** Tables ****
+/****************/
+
+.dt-wrapper {
+    overflow: initial;
+}
+
+/**************/
+/**** Tabs ****
+/**************/
+
+.nav-tabs.bordered+.tab-content {
+    background: #FFF;
+}
+
+/***************/
+/**** Tasks ****
+/***************/
+
+.todo-footer,
+.done-footer {
+	background-color: #999;
+	padding: 10px;
+	color: #FFF;
+}
+
+.task-list {
+	padding: 15px;
+}
+
+.task-list .task {
+	margin-top: 5px;
+}
+
+.edit-mode {
+	display: none;
+}
+
+.edit-mode input {
+	padding: 5px 10px;
+	width: 80%;
+    margin: auto;
+}
+
+.todo-header .label {
+	font-size: 18px;
+}
+
+.todo-header .status {
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.todo-header .buttons {
+	padding-top: 5px;	
+}
+
+/***************/
+/**** Texts ****
+/***************/
+
+.txt-color-orangeDark {
+	color: #ffc107 !important;
+}
+
+/*****************/
+/**** Uploads ****
+/*****************/
+
+.photo-upload-container {
+    width: 100%;
+    min-height: 120px;
+    border: 2px dashed #2D4259;
+    margin: 10px 0px;
+    background: #FAFAFA;
+    color: #2D4259;
+    cursor: pointer;
+    padding: 0 20px 20px 20px;
+}
+
+.croppie, .upload-status {
+    display: none;
+}
+
+/*****************/
+/**** Widgets ****
+/*****************/
+
+.jarviswidget>header {
+	min-height: 40px;
+}
+
+.jarviswidget>header h2 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.jarviswidget .widget-body {
+	padding-bottom: 0;
+	min-height: 50px;
+}
