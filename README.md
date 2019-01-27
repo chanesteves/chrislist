@@ -30,8 +30,11 @@ DESCRIPTION: A simple to-do app
 		php artisan key:generate
 
 3. Configure the .env file.
+
 	3.i. Set the APP_URL to "http:://localhost:8000". This URL is authorized to use the Google+ API. Otherwise, you may also create your own Google API credentials (please see https://developers.google.com/identity/protocols/OAuth2) and use it in the "google" variable in config/services.php.
+
 	3.ii. Set up the connection to the database you created.
+
 	3.iii. Once done editing the .env file, run the following command:
 
 		php artisan config:cache
@@ -43,3 +46,17 @@ DESCRIPTION: A simple to-do app
 5. Run the migrations.
 
 		php artisan migrate --path=database/migrations/create
+
+--------------------------------
+-------- LIBRARIES USED --------
+--------------------------------
+
+1. SmartAdmin - https://wrapbootstrap.com/theme/smartadmin-responsive-webapp-WB0573SK0
+
+2. Bootstrap
+
+	2.i. Progress Bar - https://getbootstrap.com/docs/4.2/components/progress/
+
+	2.ii. File Input - https://mdbootstrap.com/docs/jquery/forms/file-input/
+
+3. Croppie - https://foliotek.github.io/Croppie/
