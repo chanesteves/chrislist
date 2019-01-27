@@ -91,16 +91,7 @@
 		
 		<!-- JQUERY VALIDATE -->
 		<script src="{{ asset('/plugins/smartadmin/js/plugin/jquery-validate/jquery.validate.min.js') }}"></script>
-		
-		<!-- JQUERY MASKED INPUT -->
-		<script src="{{ asset('/plugins/smartadmin/js/plugin/masked-input/jquery.maskedinput.min.js') }}"></script>
-		
-		<!-- JQUERY SELECT2 INPUT -->
-		<script src="{{ asset('/plugins/smartadmin/js/plugin/select2/select2.min.js') }}"></script>
-
-		<!-- JQUERY UI + Bootstrap Slider -->
-		<script src="{{ asset('/plugins/smartadmin/js/plugin/bootstrap-slider/bootstrap-slider.min.js') }}"></script>
-		
+				
 		<!-- browser msie issue fix -->
 		<script src="{{ asset('/plugins/smartadmin/js/plugin/msie-fix/jquery.mb.browser.min.js') }}"></script>
 		

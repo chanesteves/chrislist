@@ -362,17 +362,11 @@
     <!-- JARVIS WIDGETS -->
     <script src="{{ asset('/plugins/smartadmin/js/smartwidgets/jarvis.widget.min.js') }}"></script>
 
-    <!-- EASY PIE CHARTS -->
-    <script src="{{ asset('/plugins/smartadmin/js/plugin/easy-pie-chart/jquery.easy-pie-chart.min.js') }}"></script>
-
     <!-- SPARKLINES -->
     <script src="{{ asset('/plugins/smartadmin/js/plugin/sparkline/jquery.sparkline.min.js') }}"></script>
 
     <!-- JQUERY VALIDATE -->
     <script src="{{ asset('/plugins/smartadmin/js/plugin/jquery-validate/jquery.validate.min.js') }}"></script>
-
-    <!-- JQUERY MASKED INPUT -->
-    <script src="{{ asset('/plugins/smartadmin/js/plugin/masked-input/jquery.maskedinput.min.js') }}"></script>
 
     <!-- JQUERY SELECT2 INPUT -->
     <script src="{{ asset('/plugins/smartadmin/js/plugin/select2/select2.min.js') }}"></script>
